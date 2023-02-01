@@ -1,7 +1,10 @@
 import random
 
-def noppa():
-    random.randint(1,6)
-    return
+def heita_noppaa():
+    luku = 0
+    print('Heitetään noppaa kunnes silmäluku on 6:')
+    while luku != 6:
+        luku = random.randint(1,6)
+        print(luku)
 
-noppa()
+heita_noppaa()
